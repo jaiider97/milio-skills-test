@@ -1,5 +1,5 @@
 {
-  "name": "milio-skill-test",
+  "name": "ng-starter",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:milioSkillTest": "node dist/milio-skill-test/server/server.mjs",
+    "serve:ssr:ngStarter": "node dist/ng-starter/server/server.mjs",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"test/**/*.ts\""
   },
   "private": true,
