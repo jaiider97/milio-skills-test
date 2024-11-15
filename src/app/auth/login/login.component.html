@@ -60,10 +60,18 @@
           <h4 class="mb-1">Welcome to sneat! 👋</h4>
           <p class="mb-6">Please sign-in to your account and start the adventure</p>
 
-          <form id="formAuthentication" class="mb-6" action="index.html">
+          <form id="formAuthentication" class="mb-6" (ngSubmit)="onLogin()">
             <div class="mb-6">
               <label for="email" class="form-label">Email or Username</label>
-              <input type="text" class="form-control" id="email" name="email-username" placeholder="Enter your email or username" autofocus />
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                [(ngModel)]="email"
+                name="email-username"
+                placeholder="Enter your email or username"
+                autofocus
+              />
             </div>
             <div class="mb-6 form-password-toggle">
               <label class="form-label" for="password">Password</label>
@@ -72,6 +80,7 @@
                   type="password"
                   id="password"
                   class="form-control"
+                  [(ngModel)]="password"
                   name="password"
                   placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
                   aria-describedby="password"
