@@ -8,27 +8,43 @@ import {Component, Input, ViewEncapsulation} from '@angular/core'
 export class CardsComponent {
   cardList = [
     {
-      title: 'Card 1',
+      title: 'Camisas',
       description: 'This is a description for Card 1',
       icon: 'bx-book-reader',
       color: 'primary',
+      value:300
     },
     {
-      title: 'Card 2',
+      title: 'Adidas',
+      value:300
     },
     {
-      title: 'Card 3',
+      title: 'Nike',
+      value:300
     },
     {
-      title: 'Card 4',
+      title: 'Correas',
+      value:300
     },
     {
-      title: 'Card 5',
+      title: 'Adidas',
+      value:300
     },
     {
-      title: 'Card 6',
+      title: 'Medias',
+      value:300
+    },
+    {
+      title: 'Balon',
+      value:300
+    },
+    {
+      title: 'Guantes',
+      value:300
     },
   ]
+
+  
 
   constructor() {}
 }

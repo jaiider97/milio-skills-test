@@ -1,0 +1,49 @@
+.heart-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: #ff6b6b;
+}
+.product-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+} h2 {
+  color: white;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.thumbnail-stack {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.thumbnail-stack img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+.extra-images {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid white;
+}

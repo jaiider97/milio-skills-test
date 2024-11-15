@@ -12,10 +12,11 @@ import {SideMenuComponent} from './shared/components/menus/side-menu/side-menu.c
 import {AuthModule} from './auth/auth.module'
 import {HTTP_INTERCEPTORS, provideHttpClient, withFetch} from '@angular/common/http'
 import {AuthInterceptor} from './core/auth/auht.interceptor'
-import {CardsComponent} from './shared/components/cards/cards.component'
+import {CardsComponent} from './shared/components/cards/cards.component';
+import { ImgDetailsComponent } from './shared/components/img-details/img-details.component'
 
 @NgModule({
-  declarations: [AppComponent, FullLayoutComponent, CommonLayoutComponent, MenuItemsComponent, SideMenuComponent, CardsComponent],
+  declarations: [AppComponent, FullLayoutComponent, CommonLayoutComponent, MenuItemsComponent, SideMenuComponent, CardsComponent, ImgDetailsComponent],
   imports: [BrowserModule, AppRoutingModule, AuthModule, PagesModule, CommonModule],
   providers: [
     provideClientHydration(),

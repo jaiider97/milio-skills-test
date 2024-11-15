@@ -1,0 +1,62 @@
+.modal-content {
+    border-radius: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.product-card {
+    position: relative;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 265px;
+    width: 205px;
+    padding: 20px;
+  }
+.product-image-container {
+    width: 100% ;
+    max-width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.product-image {
+    width: 166px;
+    height: 166px;
+    border-radius: 15px;
+}
+.product-info {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.product-descrip{
+ text-align: start;
+}
+
+.size-options span, .color-option {
+    padding: 1px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.selected {
+    background-color: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+.btn-custom {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.btn-cancel {
+    border: 1px solid black;
+    color: black;
+}
+.btn-add {
+    background-color: #28a745;
+    color: white;
+}
