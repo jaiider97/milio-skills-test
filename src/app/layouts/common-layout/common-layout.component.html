@@ -128,7 +128,6 @@
                   <input type="text" class="form-control border-0 shadow-none ps-1 ps-sm-2" placeholder="Search..." aria-label="Search..." />
                 </div>
               </div>
-              <!-- /Search -->
 
               <!-- Categories -->
               <div class="container py-4">
@@ -164,8 +163,6 @@
                   </button>
                 </div>
               </div>
-
-              <!-- Categories -->
 
               <!-- Dropdown de "Top ventas" y "Explorar" -->
               <div class="container py-3">
@@ -210,33 +207,11 @@
                   </div>
                 </div>
               </div>
-              <!-- Dropdown de "Explorar" -->
-              <!-- Dropdown de "Top ventas" y "Explorar" -->
 
-              <div  class="container my-4">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-4">
-                  <!-- Repite este bloque para cada producto -->
-                  <div  *ngFor="let card of cardList"  class="col">
-                    <div class="card product-card p-2">
-                      <!-- Imagen del producto -->
-                      <img src="img/elements/2.jpg" class="card-img-top product-image" alt="Producto" />
+              <!-- cards -->
+              <app-cards></app-cards>
 
-                      <!-- Contenido debajo de la imagen -->
-                      <div class="card-body px-2 py-3 d-flex justify-content-between align-items-center">
-                        <div>
-                          <h5 class="card-title mb-1">Nombre del Producto</h5>
-                          <p class="card-text">$99.99</p>
-                        </div>
-                        <div class="like-icon">
-                          <i class="bi bi-heart"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
-                  <!-- Fin del bloque de producto -->
-                </div>
-              </div>
 
               <router-outlet></router-outlet>
             </div>
@@ -246,7 +221,7 @@
         <!-- / Content -->
 
         <!-- Footer -->
-<!--         <footer class="content-footer footer bg-footer-theme">
+        <!--         <footer class="content-footer footer bg-footer-theme">
           <div class="container-xxl">
             <div class="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
               <div class="text-body">
